@@ -1,5 +1,6 @@
 {
   "name": "cdk-serverless-api",
+  "author": "Rushi Patel",
   "version": "0.1.0",
   "bin": {
     "cdk-serverless-api": "bin/cdk-serverless-api.js"

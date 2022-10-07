@@ -1,0 +1,693 @@
+{
+  "version": "20.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkServerlessApiStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkServerlessApiStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CdkServerlessApiStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.ca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602",
+              "id": "ca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602",
+              "packaging": "zip",
+              "sourceHash": "ca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602",
+              "s3BucketParameter": "AssetParametersca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602S3Bucket26C05DD2",
+              "s3KeyParameter": "AssetParametersca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602S3VersionKey890478E2",
+              "artifactHashParameter": "AssetParametersca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602ArtifactHashCB5EB2AB"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/construct-compat.ts:453:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:187:23)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:86:19)",
+              "CdkServerlessApiStack.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack.ts:683:29)",
+              "/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:53",
+              "withoutDeprecationWarnings (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:219:12)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:14)",
+              "new Asset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:152:40)",
+              "AssetCode.bind (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/code.ts:285:20)",
+              "new Function (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function.ts:708:29)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:23:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPI0BDC9FAD",
+            "trace": [
+              "new GraphqlApi (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:483:16)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/Schema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPISchema03BCA39C",
+            "trace": [
+              "Schema.bind (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/schema.ts:80:21)",
+              "new GraphqlApi (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:499:39)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIDefaultApiKey38D90378",
+            "trace": [
+              "GraphqlApi.createAPIKey (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:668:12)",
+              "new GraphqlApi (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi.ts:518:34)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:10:17)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSourceServiceRole9452416B",
+            "trace": [
+              "new Role (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/role.ts:381:18)",
+              "new BaseDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:120:47)",
+              "new BackedDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:168:5)",
+              "new LambdaDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:301:5)",
+              "GraphqlApi.addLambdaDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:219:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:33:36)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSourceServiceRoleDefaultPolicy299E3571",
+            "trace": [
+              "new Policy (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/role.ts:431:28)",
+              "Function.addToPrincipal (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/grant.ts:164:61)",
+              "Function.addToPrincipalOrResource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/grant.ts:115:26)",
+              "Function.grant (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:511:29)",
+              "Function.grantInvoke (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:429:20)",
+              "new LambdaDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:307:26)",
+              "GraphqlApi.addLambdaDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:219:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:33:36)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSource83E70A1D",
+            "trace": [
+              "new BaseDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:124:15)",
+              "new BackedDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:168:5)",
+              "new LambdaDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:301:5)",
+              "GraphqlApi.addLambdaDataSource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/graphqlapi-base.ts:219:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:33:36)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/QuerygetTodosResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSourceQuerygetTodosResolver9ABE31B8",
+            "trace": [
+              "new Resolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:108:21)",
+              "LambdaDataSource.createResolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:139:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:40:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/MutationaddTodoResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSourceMutationaddTodoResolver24BD8C30",
+            "trace": [
+              "new Resolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:108:21)",
+              "LambdaDataSource.createResolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:139:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:45:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/MutationdeleteTodoResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSourceMutationdeleteTodoResolver8EB6A67F",
+            "trace": [
+              "new Resolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:108:21)",
+              "LambdaDataSource.createResolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:139:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:50:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/GRAPHQL_API/lamdaDataSource/MutationupdateTodoResolver/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GRAPHQLAPIlamdaDataSourceMutationupdateTodoResolver5BE7822C",
+            "trace": [
+              "new Resolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/resolver.ts:108:21)",
+              "LambdaDataSource.createResolver (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-appsync/lib/data-source.ts:139:12)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:55:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/TodoFucntion/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoFucntionServiceRoleDD34F3DB",
+            "trace": [
+              "new Role (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/role.ts:381:18)",
+              "new Function (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function.ts:688:31)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:23:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/TodoFucntion/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoFucntionServiceRoleDefaultPolicy7371D37B",
+            "trace": [
+              "new Policy (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/role.ts:431:28)",
+              "Function.addToPrincipal (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-iam/lib/grant.ts:164:61)",
+              "Table.combinedGrant (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:994:29)",
+              "Table.grantFullAccess (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:767:17)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:68:16)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/TodoFucntion/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TodoFucntionA583C056",
+            "trace": [
+              "new Function (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function.ts:771:35)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:23:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/AssetParameters/ca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602S3Bucket26C05DD2",
+            "trace": [
+              "new FileAssetParameters (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:170:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:86:19)",
+              "CdkServerlessApiStack.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack.ts:683:29)",
+              "/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:53",
+              "withoutDeprecationWarnings (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:219:12)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:14)",
+              "new Asset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:152:40)",
+              "AssetCode.bind (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/code.ts:285:20)",
+              "new Function (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function.ts:708:29)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:23:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/AssetParameters/ca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602S3VersionKey890478E2",
+            "trace": [
+              "new FileAssetParameters (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:170:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:86:19)",
+              "CdkServerlessApiStack.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack.ts:683:29)",
+              "/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:53",
+              "withoutDeprecationWarnings (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:219:12)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:14)",
+              "new Asset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:152:40)",
+              "AssetCode.bind (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/code.ts:285:20)",
+              "new Function (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function.ts:708:29)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:23:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/AssetParameters/ca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersca6d76568a0dd58c1f6e6f9409bb4f48a8d1ab4ac7e5929918779d9e0019a602ArtifactHashCB5EB2AB",
+            "trace": [
+              "new FileAssetParameters (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:170:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:86:19)",
+              "CdkServerlessApiStack.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack.ts:683:29)",
+              "/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:53",
+              "withoutDeprecationWarnings (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:219:12)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:91:14)",
+              "new Asset (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:152:40)",
+              "AssetCode.bind (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/code.ts:285:20)",
+              "new Function (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-lambda/lib/function.ts:708:29)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:23:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/CDKTodosTable": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": {
+              "Ref": "CDKTodosTable3954898C"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/construct-compat.ts:453:92)",
+              "new Table (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:1210:38)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:60:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/CDKTodosTable/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKTodosTable3954898C",
+            "trace": [
+              "new Table (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:1180:18)",
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:60:24)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/Stack Region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "StackRegion",
+            "trace": [
+              "new CdkServerlessApiStack (/Users/rushipatel/Documents/Learning/cdk-serverless-api/lib/cdk-serverless-api-stack.ts:71:5)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/bin/cdk-serverless-api.ts:6:1)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Module.m._compile (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1618:23)",
+              "Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/index.ts:1621:12)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "phase4 (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:649:14)",
+              "bootstrap (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:95:10)",
+              "main (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:55:10)",
+              "Object.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/ts-node/src/bin.ts:800:3)",
+              "Module._compile (node:internal/modules/cjs/loader:1105:14)",
+              "Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)",
+              "Module.load (node:internal/modules/cjs/loader:981:32)",
+              "Function.Module._load (node:internal/modules/cjs/loader:822:12)",
+              "Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)",
+              "node:internal/main/run_main_module:17:47"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/app.ts:131:45)",
+              "Object.onceWrapper (node:events:642:26)",
+              "process.emit (node:events:527:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
+            ]
+          }
+        ],
+        "/CdkServerlessApiStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:31:27)",
+              "/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/stage.ts:180:23)",
+              "process.<anonymous> (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@aws-cdk/core/lib/app.ts:131:45)",
+              "Object.onceWrapper (node:events:642:26)",
+              "process.emit (node:events:527:28)",
+              "process.emit (node:domain:475:12)",
+              "process.emit.sharedData.processEmitHook.installedValue [as emit] (/Users/rushipatel/Documents/Learning/cdk-serverless-api/node_modules/@cspotcode/source-map-support/source-map-support.js:745:40)"
+            ]
+          }
+        ]
+      },
+      "displayName": "CdkServerlessApiStack"
+    }
+  }
+}
